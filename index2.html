@@ -1,0 +1,49 @@
+<! –- Siempre debemos empezar con una tag HTML para demostrarle al navegador que este es un documento en formato HTML. — >
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>my form dany</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    
+   <! — Dentro de la tag head vamos a definir toda la información que requiere el navegador ANTES de empezar a interpretar la página. –>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   </head>
+   <body>
+       
+        <div class="row justify-content-center mt-5">
+            <div class="col-md-4 offset-md-1">
+                <div class="card card-outline-secundary">
+                    <div class="card-header">
+                        <h3 class="mb-0">Payment for example</h3>
+                    </div>
+                    <div class="card-body">
+                        <form action="">
+                            <div class="col col-xs-12">
+                                <label for="lblemail">E-mail</label>
+                                <input type="email" placeholder="pepito@gmail.com" class="form-control">
+                            </div>
+                            <div class="col">
+                                <label for="lblpass">Password</label>
+                                <input type="password" class="form-control">
+                            </div>
+                            <div class="col>
+                                <label for="lbl">
+                                    <input type="checkbox" class="form-check-input">
+                                    Estoy deacuerdo terminos
+                                </label>
+                            </div>
+                            <div class="col float-right">
+                                <button class="btn btn-secondary" type="Reset">Cancel</button>
+                                <button class="btn btn-primary" type="submit">Registrar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+       
+   </body>
+</html>
